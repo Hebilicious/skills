@@ -10,7 +10,7 @@ npx skills add https://github.com/hebilicious/skills --skill <skill-name>
 
 ## Available Skills
 
-| Skill | Upstream source |
+| Skill | Source |
 | --- | --- |
 | `git-commit` | [github/awesome-copilot](https://skills.sh/github/awesome-copilot/git-commit) |
 | `moon` | [hyperb1iss/moonrepo-skill](https://skills.sh/hyperb1iss/moonrepo-skill/moon) |
@@ -20,6 +20,7 @@ npx skills add https://github.com/hebilicious/skills --skill <skill-name>
 | `ataski` | [hebilicious/ataski](https://skills.sh/hebilicious/ataski/ataski) |
 | `cucumber-best-practices` | [thebushidocollective/han](https://skills.sh/thebushidocollective/han/cucumber-best-practices) |
 | `architecture-diagram` | [cocoon-ai/architecture-diagram-generator](https://skills.sh/cocoon-ai/architecture-diagram-generator/architecture-diagram) |
+| `codex-review` | Local skill |
 
 ## Install Commands
 
@@ -69,4 +70,10 @@ npx skills add https://github.com/hebilicious/skills --skill cucumber-best-pract
 
 ```bash
 npx skills add https://github.com/hebilicious/skills --skill architecture-diagram
+```
+
+### `codex-review`
+
+```bash
+npx skills add https://github.com/hebilicious/skills --skill codex-review
 ```
