@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if command -v vendir >/dev/null 2>&1; then
+  vendir sync
+else
+  go run carvel.dev/vendir/cmd/vendir@v0.45.3 sync
+fi

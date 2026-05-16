@@ -1,0 +1,60 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - git:
+      commitTitle: Add 'Sister skill' section to README...
+      sha: 4b9087d55268c79a935105439dbcd37b630fc3f3
+    path: .
+  path: architecture-diagram
+- contents:
+  - git:
+      commitTitle: 'docs: use skill-root relative reference paths'
+      sha: e7bcf46e41f9e2cb4fcb27ade6de91a7289c9b6f
+    path: .
+  path: ataski
+- contents:
+  - git:
+      commitTitle: 'chore(website): bump version to 1.37.2 [skip ci]'
+      sha: 3fc9880ee2be4b1275359bed910dbd1674134448
+    path: .
+  path: cucumber-best-practices
+- contents:
+  - git:
+      commitTitle: 'chore: publish from staged'
+      sha: 4e4b34c48d3f50934a7a073aed0d05fd46e99b09
+    path: .
+  path: git-commit
+- contents:
+  - git:
+      commitTitle: Clarify purpose of CONTEXT.md to emphasize it as a glossary, removing
+        implementation details
+      sha: e74f0061bb67222181640effa98c675bdb2fdaa7
+    path: .
+  path: grill-me
+- contents:
+  - git:
+      commitTitle: Clarify purpose of CONTEXT.md to emphasize it as a glossary, removing
+        implementation details
+      sha: e74f0061bb67222181640effa98c675bdb2fdaa7
+    path: .
+  path: grill-with-docs
+- contents:
+  - git:
+      commitTitle: 'docs(moon): update documentation to v2 configuration format...'
+      sha: 574052bd06a265d472461513c9365264334082b4
+    path: .
+  path: moon
+- contents:
+  - git:
+      commitTitle: 'docs(moon): update documentation to v2 configuration format...'
+      sha: 574052bd06a265d472461513c9365264334082b4
+    path: .
+  path: proto
+- contents:
+  - git:
+      commitTitle: Clarify purpose of CONTEXT.md to emphasize it as a glossary, removing
+        implementation details
+      sha: e74f0061bb67222181640effa98c675bdb2fdaa7
+    path: .
+  path: tdd
+kind: LockConfig
