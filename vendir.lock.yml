@@ -8,8 +8,8 @@ directories:
   path: architecture-diagram
 - contents:
   - git:
-      commitTitle: Clarify Ataski coordination and board/PR gates
-      sha: 310deb6645c3aacefe507aa885daabd73bec481c
+      commitTitle: 'docs: use skill-root relative reference paths'
+      sha: e7bcf46e41f9e2cb4fcb27ade6de91a7289c9b6f
     path: .
   path: ataski
 - contents:

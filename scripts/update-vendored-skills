@@ -6,8 +6,3 @@ if command -v vendir >/dev/null 2>&1; then
 else
   go run carvel.dev/vendir/cmd/vendir@v0.45.3 sync
 fi
-
-# The ataski upstream skill lives under its repo's skills/ directory. After
-# vendir normalizes that directory to this repo's top-level ataski/ directory,
-# references inside SKILL.md must be relative to ataski/ instead.
-perl -0pi -e 's#skills/references/#references/#g' ataski/SKILL.md
