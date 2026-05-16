@@ -1,0 +1,84 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+
+directories:
+  - path: architecture-diagram
+    contents:
+      - path: .
+        git:
+          url: https://github.com/cocoon-ai/architecture-diagram-generator.git
+          ref: origin/main
+          depth: 1
+        newRootPath: architecture-diagram
+
+  - path: ataski
+    contents:
+      - path: .
+        git:
+          url: https://github.com/hebilicious/ataski.git
+          ref: origin/main
+          depth: 1
+        newRootPath: skills
+
+  - path: cucumber-best-practices
+    contents:
+      - path: .
+        git:
+          url: https://github.com/thebushidocollective/han.git
+          ref: origin/main
+          depth: 1
+        newRootPath: plugins/tools/cucumber/skills/cucumber-best-practices
+
+  - path: git-commit
+    contents:
+      - path: .
+        git:
+          url: https://github.com/github/awesome-copilot.git
+          ref: origin/main
+          depth: 1
+        newRootPath: skills/git-commit
+
+  - path: grill-me
+    contents:
+      - path: .
+        git:
+          url: https://github.com/mattpocock/skills.git
+          ref: origin/main
+          depth: 1
+        newRootPath: skills/productivity/grill-me
+
+  - path: grill-with-docs
+    contents:
+      - path: .
+        git:
+          url: https://github.com/mattpocock/skills.git
+          ref: origin/main
+          depth: 1
+        newRootPath: skills/engineering/grill-with-docs
+
+  - path: moon
+    contents:
+      - path: .
+        git:
+          url: https://github.com/hyperb1iss/moonrepo-skill.git
+          ref: origin/main
+          depth: 1
+        newRootPath: skills/moon
+
+  - path: proto
+    contents:
+      - path: .
+        git:
+          url: https://github.com/hyperb1iss/moonrepo-skill.git
+          ref: origin/main
+          depth: 1
+        newRootPath: skills/proto
+
+  - path: tdd
+    contents:
+      - path: .
+        git:
+          url: https://github.com/mattpocock/skills.git
+          ref: origin/main
+          depth: 1
+        newRootPath: skills/engineering/tdd
